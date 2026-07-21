@@ -40,8 +40,10 @@ Ao analisar a matriz gerada pela query, dois pontos de negócio ficam muito clar
 
 ---
 
-## 📂 Estrutura dos Arquivos
+## 📂 Estrutura dos Arquivos e Códigos
 
-* `01_schema_e_tabelas.sql`: Definição de chaves primárias, estrangeiras e tipagem de dados.
-* `02_importacao_dados.sql`: Script de ingestão em massa otimizada (Load Data).
-* `03_analise_retencao_cohort.sql`: A query analítica principal.
+Clique nos links abaixo para conferir o código SQL completo e comentado de cada etapa:
+
+* 📄 **[01_schema_e_tabelas.sql](01_schema_e_tabelas.sql):** Definição da arquitetura, chaves primárias/estrangeiras e tipagem de dados.
+* 📄 **[02_importacao_dados.sql](02_importacao_dados.sql):** Script de ingestão de alta performance (`LOAD DATA LOCAL INFILE`) com tratamento de exceções para datas vazias (`NULLIF`) e quebras de linha.
+* 📄 **[03_analise_retencao_cohort.sql](03_analise_retencao_cohort.sql):** Query analítica avançada utilizando CTEs encadeadas, Window Functions (`MAX OVER`) e manipulação temporal para gerar a matriz de churn.
