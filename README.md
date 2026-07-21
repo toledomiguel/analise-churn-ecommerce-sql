@@ -29,7 +29,9 @@ Trabalhar com dados reais exige lidar com sujeiras e incompatibilidades do siste
 
 ## 📊 Principais Insights de Negócio
 
-![Resultado da Matriz de Retenção](print_resultado.png)
+<img width="1071" height="353" alt="Captura de tela 2026-07-21 160009" src="https://github.com/user-attachments/assets/34b7115d-4534-42cb-b9b6-746b0db3b39c" />
+
+<img width="1087" height="363" alt="Captura de tela 2026-07-21 155951" src="https://github.com/user-attachments/assets/ceae32a9-2aac-4f48-a529-1d65a1dcf8d8" />
 
 Ao analisar a matriz gerada pela query, dois pontos de negócio ficam muito claros:
 
